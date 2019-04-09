@@ -37,6 +37,7 @@ chrome.browserAction.onClicked.addListener(function(activeTab)
 {
    
     // var newURL = `https://developers.google.com/speed/pagespeed/insights/?hl=ro&url=${currentURL}&tab=desktop`;
-   var newURL = `http://TESTTTT.INZ/${currentURL}`;  
+    var newURL = `https://developers.google.com/speed/pagespeed/insights/?hl=en&url=${currentURL}&tab=desktop`;
+   
     chrome.tabs.create({ url: newURL });
 });
